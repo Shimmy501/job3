@@ -6,7 +6,7 @@ def new
 end
 
 def index
-  @job = Jobs.all
+@jobs = Job.all
 end
 
 def show
